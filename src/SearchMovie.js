@@ -46,7 +46,7 @@ function SearchMovie() {
                 <button className="button" type="submit"> Search </button>
             </form>
             
-            {movieResults.length ? <p> Found {movieResults.length} Results </p> : null}
+            {movies.length ? <p> Found {movies.length} Results </p> : null}
             
             <div className="card-list">
                 {movies}
