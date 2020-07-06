@@ -65,7 +65,7 @@ small {
     background-color: rgb(0,0,0,0.8);
 }
 
-@media (min-width:786px) {
+@media (min-width: 786px) {
     .form {
         grid-template-columns: auto 1fr auto;
         grid-gap: 1rem;
